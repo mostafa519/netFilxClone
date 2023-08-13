@@ -1,0 +1,10 @@
+ .btnEdit {
+   color: white !important;
+   border: 2px solid white !important;
+   width: 100% !important;
+   height: 30px;
+   background-color: black !important;
+ }
+.colors {
+   color: white;
+ } 

@@ -1,0 +1,75 @@
+.test {
+  width: 230px;
+
+  .ListItemsHandle {
+    width: 100% !important;
+    height: 120px;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: black;
+    margin-right: 10px !important;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    .sliderImg {
+      width: 100% !important;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &:hover {
+      width: 325px !important;
+      height: 340px;
+      position: absolute;
+      top: -150px;
+      -webkit-box-shadow: -1px 2px 15px 5px rgba(255, 255, 255, 0.3);
+      box-shadow: -1px 2px 15px 5px rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      z-index: 999;
+    }
+
+    .sliderImg {
+      height: 140px;
+      width: 100%;
+    }
+    .itemInfo {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .icons {
+      display: flex;
+      margin-bottom: 10px;
+      .icon {
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 50%;
+        margin-right: 10px;
+        font-size: 28px !important;
+      }
+    }
+    .itemsInfoTextLT {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: gray;
+      .Age {
+        border: 1px solid gray;
+        padding: 1px 3px;
+        margin: 0 10px;
+      }
+    }
+    .desc {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    .genre {
+      font-size: 12px;
+      color: lightgray;
+    }
+  }
+}
+ 
